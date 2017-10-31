@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+
+        <title>S W E L L</title>
+
+        <meta name="description" content="Realtime distorted image..." />
+
+        <script type="text/javascript" src="http://whitevinyldesign.com/experiments/experiment.js"></script>
+        <link href="http://whitevinyldesign.com/experiments/experimentStyle.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="js/lib/stats.min.js"></script>
+        <script type="text/javascript" src="js/lib/tombola.js"></script>
+        <script type="text/javascript" src="js/lib/colorflex.js"></script>
+        <script type="text/javascript" src="js/lib/canvas-noise.js"></script>
+        <script type="text/javascript" src="js/lib/perlin-simplex.js"></script>
+
+        <script type="text/javascript" src="js/UTILS.js"></script>
+        <script type="text/javascript" src="js/IMG.js"></script>
+        <script type="text/javascript" src="js/MAIN.js"></script>
+        <script type="text/javascript" src="js/METRICS.js"></script>
+        <script type="text/javascript" src="js/INTERACTION.js"></script>
+
+        <link href="STYLE.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lora|PT+Sans:i400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700|Raleway:100,900" rel="stylesheet">
+
+        <link rel="shortcut icon" href="http://whitevinyldesign.com/experiments/favicon.ico"/>
+        <link rel="image_src" type="image/png" href="thumb.jpg">
+    </head>
+
+
+    <body onload="init()" onresize="metrics()">
+
+        <canvas id="canvas"></canvas>
+
+        <div id='noiseLayer'></div>
+
+        <div id='overlay' class='unselectable'>
+            <div id='tt'>Swell</div>
+            <div id='line'></div>
+        </div>
+
+        <div id='creator'>
+            <a href='http://whitevinyldesign.com' target='_blank'>by Wvnl</a>
+            <div class='divide'></div>
+            <a href='https://github.com/Whitevinyl/SWELL' target='_blank'>github</a>
+        </div>
+
+
+        <script type="text/javascript">
+        var sc_project=11468156;
+        var sc_invisible=1;
+        var sc_security="c6f7496c";
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+        document.write("<sc"+"ript type='text/javascript' src='" +
+        scJsHost+
+        "statcounter.com/counter/counter.js'></"+"script>");
+        </script>
+        <noscript><div class="statcounter"><a title="Web Analytics"
+        href="http://statcounter.com/" target="_blank"><img
+        class="statcounter"
+        src="//c.statcounter.com/11468156/0/c6f7496c/1/" alt="Web
+        Analytics"></a></div></noscript>
+    </body>
+</html>
